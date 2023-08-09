@@ -19,6 +19,6 @@ protected void service(HttpServletRequest req, HttpServletResponse resp) throws 
 	HttpSession session = req.getSession();
 	
 	session.setAttribute("lists",hb.readAll());
-	resp.sendRedirect("/Aadhar_Mangement_Pro/View.jsp");
+	resp.sendRedirect("/Aadhar_Management/View.jsp");
 }
 }

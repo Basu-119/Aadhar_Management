@@ -27,7 +27,7 @@ public class UpdateAadhar extends HttpServlet {
 		
 		hb1.updateDet(a_id,selopt,det);
 		
-		resp.sendRedirect("/Aadhar_Mangement_Pro/Home.html");
+		resp.sendRedirect("/Aadhar_Management/Home.html");
 
 	}
 }

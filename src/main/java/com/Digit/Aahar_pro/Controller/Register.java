@@ -35,7 +35,7 @@ public class Register extends HttpServlet {
 		
 		HibernateManager hbm= new HibernateManager();
 		if(hbm.saveObj(ad)) {
-			resp.sendRedirect("/Aadhar_Mangement_Pro/Home.html");
+			resp.sendRedirect("/Aadhar_Management/Home.html");
 		}
 		
 		

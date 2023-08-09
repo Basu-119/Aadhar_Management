@@ -24,7 +24,7 @@ public class View_Spec extends HttpServlet {
 		HttpSession session = req.getSession();
 		AadharDetails usr= n1.readSpecific(a_id);
 		session.setAttribute("spx",usr);
-		resp.sendRedirect("/Aadhar_Mangement_Pro/View_spx.jsp");
+		resp.sendRedirect("/Aadhar_Management/View_spx.jsp");
 		}
 	}
 

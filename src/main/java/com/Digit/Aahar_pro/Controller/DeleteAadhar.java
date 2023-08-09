@@ -20,7 +20,7 @@ protected void service(HttpServletRequest req, HttpServletResponse resp) throws 
 		HibernateManager dhbm= new HibernateManager();
 		dhbm.delete(a_id);
 		
-		resp.sendRedirect("/Aadhar_Mangement_Pro/Home.html");
+		resp.sendRedirect("/Aadhar_Management/Home.html");
  
 		
 

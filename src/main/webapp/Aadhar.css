@@ -1,0 +1,106 @@
+@charset "ISO-8859-1";
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #00000079;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+
+}
+li {
+    list-style-type: none;
+}
+.card {
+    background-color: white;
+    width: 50%;
+    height: 60vh;
+    margin: 100px auto;
+    border: 3px dashed #080101;
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+
+nav {
+    display: flex;
+    padding: 1px 35px;
+}
+nav ul {
+    margin: 1px 95px;
+}
+
+#h {
+    background: #ff5e00;
+    border-radius: 35px;
+    font-size: 16px;
+    padding: 1px 65px;
+    margin-bottom: 2px;
+}
+#e{
+    background: rgb(6, 177, 20);
+    border-radius: 35px;
+    font-size: 16px;
+    padding: 1px 65px;
+    margin: 2px 0px;
+
+
+}
+.pic {
+    width: 160px;
+    height: 200px;
+    /* border: 1px solid black; */
+}
+.logo {
+    width: 50px;
+    height: 60px;
+    
+}
+section{
+    padding: 10px 10px;
+    /* border: 1px solid green; */
+    width: 97%;
+    height: 33vh;
+    margin: auto;
+    display: flex;
+    text-align: left;
+    float: left;
+    position: relative;
+}
+.detail {
+    padding-left: 30px;
+    word-spacing: 5px;
+}
+.barcode img{
+    width: 120px;
+    height: 130px;
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    
+}
+#btm {
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+
+
+.bottom h1{
+    border-top: 3px solid red;
+    padding-top: 5px;
+    margin-top: 0px;
+    word-spacing: 10px;
+}
+span{
+    color: red;
+}
+
+
+

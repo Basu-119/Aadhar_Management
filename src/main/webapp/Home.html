@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Item Management</title>
+
+<style>
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 20px;
+	background-color: #f5f5f5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container {
+	max-width: 800px;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 20px;
+	color: #333;
+}
+
+form {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+label, input, select, button {
+	display: block;
+	margin-bottom: 10px;
+}
+
+button {
+	padding: 8px 15px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
+
+h2 {
+	color: #333;
+	font-size: 1.2em;
+	margin-bottom: 15px;
+}
+
+/* Styling the forms */
+form {
+	width: 300px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+}
+
+.a {
+	align-items: center
+}
+
+form:hover {
+	border-color: #999;
+}
+
+form button {
+	background-color: #333;
+}
+
+form button:hover {
+	background-color: #555;
+}
+
+.mt {
+	margin-top: 30px;
+}
+</style>
+
+</head>
+
+<body>
+
+	<div class="container a">
+
+		<h1>Aadhar Management</h1>
+
+
+
+		<!-- Register Form -->
+
+		<form action="Register.html" id="registerForm">
+
+			<h2>Register Item</h2>
+
+			<button type="submit">Register</button>
+
+		</form>
+
+
+
+		<!-- Update Form -->
+
+		<form action="Update.html" id="updateForm">
+
+			<h2>Update Item</h2>
+
+			<button type="submit">Update</button>
+
+		</form>
+
+
+
+		<!-- Delete Form -->
+		<div class="mt">
+			<form action="Delete.html">
+
+				<h2>Delete Item</h2>
+
+				<button type="submit">Delete</button>
+
+			</form>
+
+			<form action="View_spx.html" class="mt">
+
+				<h2>VIEW</h2>
+
+				<button type="submit">View</button>
+
+			</form>
+		</div>
+
+		<form action="View" class="mt">
+
+			<h2>VIEW all Item</h2>
+
+			<button type="submit">VIew All</button>
+
+		</form>
+
+
+
+	</div>
+
+</body>
+
+</html>
